@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"math/rand"
+	"math/rand"'
 	"mime"
 	"net/http"
 	"path"
@@ -860,7 +860,7 @@ func (f *Fs) changeSvc(ctx context.Context, deleted bool) error {
 		}
 	}
 
-	// fs.Debugf(nil, "gclone sa file: %s", opt.ServiceAccountFile)
+	fs.Debugf(nil, "gclone sa file: %s", opt.ServiceAccountFile)
 	return nil
 }
 
